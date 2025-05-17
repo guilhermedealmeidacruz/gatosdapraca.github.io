@@ -1,0 +1,17 @@
+### Listar todos os gatos
+GET http://localhost:3000/api/gatos
+Accept: application/json
+
+###
+
+### Criar um novo gato
+POST http://localhost:3000/api/gatos
+Content-Type: application/json
+
+{
+  "nome": "Vitória",
+  "sexo": "Fêmea",
+  "raca": "Sem raça definida",
+  "descricao": "Adulta e castrada, gata muito carinhosa",
+  "fotoUrl": "http://exemplo.com/vitoria.jpg"
+}
